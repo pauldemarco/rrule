@@ -11,7 +11,10 @@ dependencies:
   collection: ^1.14.12
   meta: ^1.1.8
   pedantic: ^1.8.0+1
-  time_machine: ^0.9.12
+  time_machine:
+    git:
+      url: https://github.com/Dana-Ferguson/time_machine
+      ref: 7753e0d
 
 dev_dependencies:
   test: ^1.14.3
